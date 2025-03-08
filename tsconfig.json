@@ -1,0 +1,16 @@
+{
+    "compilerOptions": {
+        "outDir": "./build/JS/TS/",
+        "target": "ES6",
+        "module": "ES6",  // 🔹 Cambiar de "system" a "ES6"
+        "moduleResolution": "Node",
+        "sourceMap": true,
+        "strict": true,
+        "removeComments": true,
+        "skipLibCheck": true,
+        "esModuleInterop": true,
+        "allowSyntheticDefaultImports": true
+    },
+    "include": ["TS/**/*.ts"],
+    "exclude": ["node_modules"]
+}
